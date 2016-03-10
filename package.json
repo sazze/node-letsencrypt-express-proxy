@@ -1,0 +1,39 @@
+{
+  "name": "letsencrypt-express-proxy",
+  "version": "0.1.0",
+  "description": "express proxy middleware for sending LetsEncrypt certificate requests to another server for processing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sazze/node-letsencrypt-express-proxy"
+  },
+  "bugs": {
+    "url": "https://github.com/sazze/node-letsencrypt-express-proxy/issues"
+  },
+  "keywords": [
+    "proxy",
+    "letsencrypt",
+    "express",
+    "acme"
+  ],
+  "author": "Craig Thayer <cthayer@sazze.com>",
+  "contributors": [
+    {
+      "name": "Craig Thayer",
+      "email": "cthayer@sazze.com"
+    }
+  ],
+  "maintainers": [
+    {
+      "name": "Craig Thayer",
+      "email": "cthayer@sazze.com"
+    }
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.69.0"
+  }
+}
